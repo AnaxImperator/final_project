@@ -1,12 +1,21 @@
 body {
     box-sizing: border-box;
-    display: flex;
-    background-color: #ecffca;
     color: #1e6b00;
-    font-family: sans-serif;
-    padding: 10px;
     margin: auto;
     font-family: 'calibri';
+}
+
+.head {
+    background-color: rgb(185, 252, 189);
+}
+
+.photo {
+    font-size: 5px;
+    height: 50px;
+}
+
+.aF {
+    color: #1e6b00;
     
 }
 
@@ -44,26 +53,69 @@ img {
     background-color: #2ed4da;
     width: 800px;
     height: 220px;
-    margin: 20px auto;
+    margin: 20px 70px;
     padding: 25px;
 }
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'calibri';
+}
+
+a:hover {
+    color: black;
 }
     
 .ins {
     width: 1000px;
-    height: 500px;
+    height: 200px;
     background-color: #90fd86;
     font-size: 14px;
-    margin: auto;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 20px 10px;
     border-radius: 6%;
-    background-image: "IMG_5463.JPG";
+    
 }
 
 .grandis {
     font-size: 17px;
+}
+
+.full {
+    background-color: rgb(149, 252, 252);
+    height: 150px;
+    width: 480px;
+    margin: 20px 20px 20px 170px;
+    padding: 10px;
+    border-radius: 15%;
+    
+}
+
+.notFull {
+    display: flex;
+}
+
+.Full {
+    background-color: rgb(149, 252, 252);
+    height: 150px;
+    width: 480px;
+    margin: 20px 170px 20px 20px;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.photoIns {
+    background-color: rgb(81, 211, 211);
+    height: 250px;
+    width: 700px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2%;
+    color:rgb(4, 0, 56);
+}
+
+.lepid {
+    width: 200px;
+    height: 150px;
 }
